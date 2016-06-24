@@ -1,0 +1,205 @@
+body,a
+{text-indent:0pt;
+	margin-left:0pt;
+	margin-right:0pt;
+	margin-top:0pt;
+	margin-bottom:0pt;
+	text-align:left;
+	font-family:"Arial";
+	font-size:10.0pt;
+	color:black;
+}
+a
+{
+	color:#993333;
+}
+a:hover
+{
+	color:#663366;
+}
+li,ul
+{
+	text-indent:0pt;
+	margin-left:0pt;
+	margin-right:0pt;
+	margin-top:0pt;
+	margin-bottom:0pt;
+	text-align:left;
+	font-family:"Arial";
+	font-size:10.0pt;
+	color:black;
+	/*list-style-type:circle;*/
+	list-style-position:inside;
+	list-style-type:disc;
+}
+.arabictitle
+{
+	font-family:"Arial";
+	font-size:14.0pt;
+	direction:rtl;
+}
+.arabic
+{
+	font-family:"Arial";
+	font-size:12.0pt;
+	direction:rtl;
+}
+P
+	{
+	font-family:"Arial";
+	font-size:10.0pt;
+	margin-top:9pt;
+	margin-bottom:9pt;
+	}
+H2
+	{text-indent:0pt;
+	margin-left:0pt;
+	margin-right:0pt;
+	margin-top:9pt;
+	margin-bottom:9pt;
+	text-align:left;
+	font-family:"Arial";
+	font-size:12.0pt;
+	font-weight:bold;
+	color:#993333;}
+TD.MsoOrganizationName
+	{text-indent:0pt;
+	margin-left:0pt;
+	margin-right:0pt;
+	margin-top:10pt;
+	margin-bottom:10pt;
+	text-align:left;
+	font-family:"Vivaldi;Trebuchet MS";
+	font-size:28.0pt;
+	color:#663366;
+	font-weight:bold;}
+	
+TD.MsoTagline, li.MsoTagline
+	{text-indent:0pt;
+	margin-left:0pt;
+	margin-right:0pt;
+	margin-top:0pt;
+	margin-bottom:0pt;
+	text-align:left;
+	font-family:"Arial";
+	font-size:12.0pt;
+	color:black;
+	vertical-align:top;
+
+}
+
+div.MsoTagline
+	{text-indent:0pt;
+	margin-left:0pt;
+	margin-right:0pt;
+	margin-top:0pt;
+	margin-bottom:0pt;
+	text-align:left;
+	font-family:"Arial";
+	font-size:12.0pt;
+	color:black;
+	vertical-align:right;
+}
+
+td.imageTitle
+{
+	border: none;
+}
+td.menu
+{	text-indent:0pt;
+	margin-left:0pt;
+	margin-right:0pt;
+	margin-top:0pt;
+	margin-bottom:0pt;
+	text-align:left;
+	font-family:"Trebuchet MS";
+	background-color:#886A44;
+	font-size:10.0pt;
+	height:440px;
+	vertical-align:top;
+	
+	}
+
+a.menuitem,a:visited.menuitem
+{
+	text-indent:20pt;
+	font-family:"Arial";
+	font-size:9.0pt;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover.menuitem
+{
+	color:#663366;
+}
+td.menuitem
+{
+	height:35px;
+}
+td.titlefill
+{
+background-color:#886A44;
+}
+td.title
+{
+	text-align:left;
+	font-family:"Trebuchet MS";
+	font-size:20.0pt;
+	font-weight:bold;
+	color:#886A44;
+	border-top:solid 2pt #886A44;
+}
+td.content
+{
+	border-bottom:solid 2pt #886A44;
+	height:420px;
+	vertical-align:top;
+	/*background:url("../Images/arabesque.jpg");
+	background-repeat:no-repeat;
+	background-position:top center;*/
+}
+td.description
+{
+	vertical-align:"top";
+}
+p.description
+{
+	font-family:"Arial";
+	font-size:9.0pt;
+	text-decoration:none;
+	}
+td.price
+{
+	font-family:"Arial";
+	font-size:9.0pt;
+	font-weight:bold;
+	text-align:right;
+	vertical-align:"top";
+}
+td.ref
+{
+	font-family:"Arial";
+	font-size:9.0pt;
+	text-align:left;
+	vertical-align:"top";
+}
+H3
+	{text-indent:0pt;
+	margin-left:0pt;
+	margin-right:0pt;
+	margin-top:1pt;
+	margin-bottom:1pt;
+	text-align:left;
+	font-family:"Arial";
+	font-size:10.0pt;
+	font-weight:bold;
+	color:#886A44;}
+table.courses
+{
+border-bottom:solid 1pt #886A44;
+}
+hr
+{
+color:#886A44;
+}

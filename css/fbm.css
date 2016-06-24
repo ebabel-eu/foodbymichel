@@ -1,0 +1,177 @@
+body {
+	background-image: url(../img/image306.gif);
+	background-repeat: repeat;
+}
+
+#Header {
+	position:absolute;
+	left:8px;
+	top:4px;
+	width:570px;
+	height:97px;
+	z-index:1;
+	border: thick solid #000000;
+	padding-left: 120px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top: 1px;
+}
+#HeaderMLogo {
+	position:absolute;
+	left:12px;
+	top:8px;
+	width:104px;
+	height:92px;
+	z-index:2;
+}
+#HeaderLebFlag {
+	position:absolute;
+	left:576px;
+	top:9px;
+	width:124px;
+	height:84px;
+	z-index:3;
+}
+#HeaderTitle {
+	position:fixed;
+	left:300px;
+	top:10px;
+	width:434px;
+	height:82px;
+	z-index:4;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#sideBar {
+	position:absolute;
+	left:8px;
+	top:121px;
+	width:168px;
+	height:231px;
+	z-index:4;
+}
+
+
+
+.bigAndBold {
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.discrete {
+	font-size: small;
+	line-height: 1px;
+}
+
+.amsSide {
+	position: relative;
+	top: 0px;
+	left: 320px;
+	font-size: small;
+}
+
+.sideNavMenu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	list-style-image: url(../img/bullet1.jpg);
+	font-size: smaller;
+	list-style-position: outside;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	line-height: 20px;
+	font-weight: bold;
+}
+#MainLayer {
+	position:absolute;
+	left:185px;
+	top:121px;
+	width:526px;
+	height:532px;
+	z-index:5;
+	overflow: auto;
+	background-image: url(../img/arabesque.jpg);
+	background-position: center top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	margin-right: 10px;
+}
+
+#container #MainLayer li {
+	list-style-type: none;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-bottom-style: solid;
+	padding-right: 20px;
+}
+#container #MainLayer li li{
+	list-style-type: disc;
+	border-bottom-style: none;
+	padding-right: 20px;
+}
+a {
+	text-decoration: none;
+	color: #5E1528;
+}
+#MainLayer .bigAndBold {
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: medium;
+}
+#MainLayer .subtitle {
+	text-align: left;
+	font-size: x-large;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+#MainLayer .dishname {
+	text-align: left;
+	font-size: small;
+	font-style: italic;
+	font-weight: bold;
+}
+#MainLayer .dishDesc {
+	text-align: left;
+	font-size: small;
+}
+#MainLayer img {
+	float: left;
+	height: 88px;
+	width: 134px;
+	position: static;
+	padding-right: 10px;
+}
+
+#MainLayer .portion {
+	text-align: left;
+	font-size: small;
+	line-height: 0px;
+	color: #C00002;
+}
+#MainLayer .refNumber {
+	text-align: right;
+	font-size: small;
+	line-height: 0px;
+}
+#MainLayer .portionPrice {
+	text-align: right;
+	font-size: small;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+
+#container {
+position:absolute; 
+left:50%; 
+width:720px; 
+height:700px; 
+z-index:1; 
+margin-left: -360px; 
+}
